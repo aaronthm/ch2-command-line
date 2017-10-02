@@ -11,15 +11,18 @@ using either **man**, or just google search for the documentation.
    folder name.
 
 2. How many factually correct news are there?
-
-   hint: use *zcat* or *bzcat* to display the text, use *grep* to search
-   for a relevant pattern, use *wc* to count the resulting lines
+>235
+hint: use *zcat* or *bzcat* to display the text, use *grep* to search
+for a relevant pattern, use *wc* to count the resulting lines
 
 3. How many mostly correct news are there?
+>167
 
 4. How many fake news are there?
+>There are 48 counts of fake news articles
 
 5. How many different types of news classifications are there?
+>There are 5 different classifications
 
    Hint: add up the types you see (you may use *head* to inspect the
    file).  Do you get the total number of observations?
